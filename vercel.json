@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "outputDirectory": "build",
   "functions": {
     "api/mcp.ts": {
       "maxDuration": 30
