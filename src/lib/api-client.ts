@@ -113,7 +113,7 @@ export class KosisApiClient {
     statId?: string;
     metaItm?: string;
   }): Promise<unknown> {
-    const url = new URL(`${BASE_URL}/statisticsMeta.do`);
+    const url = new URL(`${BASE_URL}/statisticsExplData.do`);
     url.searchParams.set("method", "getList");
     url.searchParams.set("apiKey", this.apiKey);
     url.searchParams.set("format", "json");
